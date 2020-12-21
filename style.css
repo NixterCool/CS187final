@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background: #0096b7;
+    background-image: linear-gradient(#0083b8, #00bcb4);
+}
+
+body{
+    background-image: linear-gradient(135deg, #00bcb4, #0083b8);
+    min-height: 100%;
+}
+html{
+    min-height: 100%
+}
+.menu ul{
+    display: inline-flex;
+    margin: 50px
+}
+.menu ul li{
+    list-style: none;
+    margin: 0 20px;
+    color: #b2b1b1;
+    cursor: pointer;
+}
+.logo{
+    width: 40px;
+    margin-top: -25px;
+    margin-right: 50px;
+    margin-left: 0px
+}
+.active{
+    color: rgb(255, 255, 255) !important;
+}
+.signup-btn{
+    top: 40px;
+    right: 80px;
+    position: absolute;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(#42455a, #42455a), radial-gradient(circle at top left, #fd00da, #19d7f8);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+.signup-btn span{
+    display: block;
+    padding: 8px 22px;
+}
+.banner{
+    width: 80%;
+    height: 70%;
+    top: 25%;
+    left: 130px;
+    position: absolute;
+    color: white;
+}
+.app-text{
+    width: 50%;
+    float: left;
+    margin-left: -150px
+}
+.app-text h1{
+    font-size: 43px;
+    width: 640px;
+    position: relative;
+    margin-left: 40px;
+}
+.app-text p{
+    width: 650px;
+    font-size: 15px;
+    margin: 30px 0 30px 40px;
+    line-height: 25px;
+    color: #ffffff;
+}
+.app-picture{
+    width: 50%;
+    float: right;
+}.app-picture img{
+    width: 10 0%;
+    float: right;
+    margin-top: -150px;
+    margin-right: -150px
+}
